@@ -1,0 +1,121 @@
+div.card.box-app {
+  background-color: #FFF;
+  border: none;
+  border-radius: 3px;
+  padding: 0;
+}
+div.card.box-app > div.card-header {
+  background-color: transparent;
+  font-size: 1.3rem;
+  margin: 0.765rem 1.5rem;
+  padding: 1rem 0.5rem 0 0.5rem;
+  border: 0;
+}
+div.card.box-app > div.card-header h3 {
+  color: #181c32;
+  font-size: 1.275rem;
+  font-weight: 600;
+}
+div.card.box-app > div.card-header .sub-title {
+  color: #9999a3 !important;
+  font-size: 1.1rem;
+}
+div.card.box-app > div.card-header div.card-subtitle {
+  font-size: 0.9rem;
+}
+div.card.box-app > div.card-header figure.logo {
+  background-color: #EAEAEA;
+  border-radius: 3px;
+  height: 150px;
+  padding: 10px;
+  width: 150px;
+}
+div.card.box-app > div.card-body {
+  padding: 1rem 2rem;
+}
+div.card.box-app > div.card-filter {
+  background-color: #EFEFEF;
+  display: none;
+  margin: 0 1.5rem;
+  padding: 0.75rem 1rem;
+}
+div.card.box-app > table {
+  font-size: 0.85rem;
+  margin: 1.5rem 0 0 0;
+}
+div.card.box-app > table td.options div.dropdown-menu {
+  left: auto !important;
+  right: 0 !important;
+  top: 100% !important;
+  transform: none !important;
+}
+div.card.box-app ul.nav {
+  padding: 0 1rem;
+}
+div.card.box-app ul.nav > li.nav-item {
+  margin-bottom: 0;
+  padding: 0 1rem;
+}
+div.card.box-app ul.nav > li.nav-item > a {
+  border: 0;
+  border-bottom: 1px solid transparent;
+  color: #545454;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+div.card.box-app div.tab-content {
+  padding: 2rem;
+}
+div.card.box-app td {
+  vertical-align: middle;
+}
+
+div.card.box-app > table th:first-child,
+div.card.box-app > table td:first-child {
+  border-left: none;
+  padding-left: 1.5rem;
+}
+
+div.card.box-app > table th:last-child,
+div.card.box-app > table td:last-child {
+  border-right: none;
+  padding-right: 1.5rem;
+}
+
+div.card.box-app ul.nav > li.nav-item > a.active,
+div.card.box-app ul.nav > li.nav-item > a:hover,
+div.card.box-app ul.nav > li.nav-item > a:focus {
+  color: #004d7c;
+  border-bottom: 3px solid #004d7c;
+}
+
+table.dataTable {
+  clear: both;
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+  max-width: none !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+}
+table.dataTable td {
+  border-bottom: 0 !important;
+}
+table.dataTable thead tr th {
+  padding: 16px;
+}
+table.dataTable thead tr th.sorting {
+  border-bottom: 2px solid #dee2e6 !important;
+}
+table.dataTable tbody tr td button.btn-light-primary {
+  background-color: #e1e9ff !important;
+  border-color: transparent;
+  color: #6993ff !important;
+  font-size: 0.9rem;
+}
+table.dataTable tbody tr td button.btn-light-primary:hover, table.dataTable tbody tr td button.btn-light-primary:focus, table.dataTable tbody tr td button.btn-light-primary:active {
+  background-color: #6993ff !important;
+  border-color: transparent;
+  color: #FFF !important;
+}
+
+/*# sourceMappingURL=content.css.map */

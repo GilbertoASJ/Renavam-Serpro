@@ -14,4 +14,9 @@ body {
   font-size: 0.835rem;
 }
 
+div.modal-body form div.card-body div.form-group div.col-12 input,
+div.modal-body form div.card-body div.form-group div.col-12 textarea {
+  font-size: 0.835rem !important;
+}
+
 /*# sourceMappingURL=global.css.map */
