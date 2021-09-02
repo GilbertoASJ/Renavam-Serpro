@@ -65,6 +65,7 @@ $(document).ready(function() {
 
         // Alterando texto
         this.textContent = this.textContent.replace('No matching records found','Nenhum registro encontrado');
+        this.textContent = this.textContent.replace('No data available in table','Sem dados disponíveis na tabela');
     });
     replaceEmpty();
 
