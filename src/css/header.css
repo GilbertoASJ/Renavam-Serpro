@@ -6,17 +6,44 @@ header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 header .container {
-  height: 80px;
   padding-top: 9px;
 }
 header nav.navbar {
   padding: 0.5rem 0;
 }
+header nav.navbar div a.dropdown-toggle {
+  font-size: 1rem;
+  padding: 0.3rem 0.4rem;
+}
+header nav.navbar div a.dropdown-toggle::after {
+  display: none;
+}
+header nav.navbar div a.dropdown-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+header nav.navbar div a > span.initial {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.42rem;
+  height: 35px;
+  line-height: 35px;
+  width: 35px;
+  padding: 0.765rem 1rem;
+}
+header nav.navbar div.container-fluid {
+  padding: 0;
+}
 header nav.navbar ul.navbar-nav {
   margin-left: 1rem;
 }
+header nav.navbar ul.navbar-nav ul.dropdown-menu {
+  width: 95%;
+  border-radius: 0.675rem;
+}
 header nav.navbar ul.navbar-nav ul.dropdown-menu li {
   margin: 0.5rem;
+}
+header nav.navbar ul.navbar-nav ul.dropdown-menu li a {
+  font-size: 0.895rem;
 }
 header nav.navbar ul.navbar-nav > li.nav-item {
   padding: 0 0.25rem;
@@ -24,7 +51,7 @@ header nav.navbar ul.navbar-nav > li.nav-item {
 header nav.navbar ul.navbar-nav > li.nav-item > a.nav-link {
   border-radius: 0.42rem;
   color: #FFF;
-  padding: 0.75rem 1.25rem;
+  padding: 0.75rem 0.4rem;
 }
 header nav.navbar ul.navbar-nav > li.nav-item > a.nav-link.disabled {
   color: rgba(255, 255, 255, 0.8);

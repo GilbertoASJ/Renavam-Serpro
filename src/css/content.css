@@ -17,8 +17,8 @@ div.card.box-app > div.card-header h3 {
   font-weight: 600;
 }
 div.card.box-app > div.card-header .sub-title {
-  color: #9999a3 !important;
-  font-size: 1.1rem;
+  color: #b5b5c3 !important;
+  font-size: 1rem;
 }
 div.card.box-app > div.card-header div.card-subtitle {
   font-size: 0.9rem;
@@ -97,6 +97,9 @@ table.dataTable {
   border-collapse: separate !important;
   border-spacing: 0;
 }
+table.dataTable .dataTables_length {
+  margin-bottom: 1rem;
+}
 table.dataTable td {
   border-bottom: 0 !important;
 }
@@ -116,6 +119,18 @@ table.dataTable tbody tr td button.btn-light-primary:hover, table.dataTable tbod
   background-color: #6993ff !important;
   border-color: transparent;
   color: #FFF !important;
+}
+
+div.modal-body form div.card-body div.form-group div.col-12 input,
+div.modal-body form div.card-body div.form-group div.col-12 textarea {
+  font-size: 0.835rem !important;
+}
+
+/* Media Querys */
+@media (max-width: 767.98px) {
+  .dataTables_length {
+    margin-bottom: 1rem;
+  }
 }
 
 /*# sourceMappingURL=content.css.map */
