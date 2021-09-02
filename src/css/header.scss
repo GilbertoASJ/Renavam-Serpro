@@ -7,18 +7,52 @@ header {
     border-bottom: 1px solid rgba(255, 255, 255, .1);
 
     .container {
-        height: 80px;
         padding-top: 9px;
     }
 
     nav.navbar {
         padding: .5rem 0;
 
+        div a.dropdown-toggle {
+            font-size: 1rem;
+            padding: .3rem .4rem;
+
+            &::after {
+                display: none;
+            }
+
+            &:hover {
+                background-color: rgba(255, 255, 255, .2);
+            }
+        }
+
+        div a>span.initial {
+            background-color: rgba(255, 255, 255, .2);
+            border-radius: .42rem;
+            height: 35px;
+            line-height: 35px;
+            width: 35px;
+            padding: .765rem 1rem;
+        }
+
+        div.container-fluid {
+            padding: 0;
+        }
+
         ul.navbar-nav {
             margin-left: 1rem;
 
-            ul.dropdown-menu li {
-                margin: .5rem;
+            ul.dropdown-menu {
+                width: 95%;
+                border-radius: .675rem;
+
+                li {
+                    margin: .5rem;
+
+                    a {
+                        font-size: .895rem;
+                    }
+                }   
             }
 
             >li.nav-item {
@@ -28,7 +62,7 @@ header {
             >li.nav-item>a.nav-link {
                 border-radius: .42rem;
                 color: #FFF;
-                padding: .75rem 1.25rem;
+                padding: .75rem .4rem;
             }
 
             >li.nav-item>a.nav-link.disabled {

@@ -18,8 +18,8 @@ div.card.box-app {
         }
 
         .sub-title {
-            color: #9999a3 !important;
-            font-size: 1.1rem;
+            color: #b5b5c3 !important;
+            font-size: 1rem;
         }
     }
 
@@ -111,6 +111,10 @@ table.dataTable {
     border-collapse: separate !important;
     border-spacing: 0;
 
+    .dataTables_length {
+        margin-bottom: 1rem;
+    }
+
     td {
         border-bottom: 0 !important;
     }
@@ -136,5 +140,18 @@ table.dataTable {
             border-color: transparent;
             color: #FFF !important;
         }       
+    }
+}
+
+// Modal
+div.modal-body form div.card-body div.form-group div.col-12 input,
+div.modal-body form div.card-body div.form-group div.col-12 textarea {
+    font-size: 0.835rem !important;
+}
+
+/* Media Querys */
+@media (max-width: 767.98px) {
+    .dataTables_length {
+        margin-bottom: 1rem;
     }
 }
