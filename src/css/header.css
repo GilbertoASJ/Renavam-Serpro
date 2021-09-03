@@ -63,7 +63,7 @@ header nav.navbar ul.navbar-nav > li.nav-item > a.nav-link:hover {
 }
 
 /* Subheader */
-div#sub-header {
+section#sub-header {
   height: 150px;
 }
 
